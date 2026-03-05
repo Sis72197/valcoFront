@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@use 'primeicons/primeicons.css';
+@use '@/assets/layout/layout.scss';
+@use '@/assets/demo/demo.scss';
+
+:root {
+    --primary-50: #e6ecfb;
+    --primary-100: #b3c6f1;
+    --primary-200: #809fe7;
+    --primary-300: #4d78dd;
+    --primary-400: #265bd6;
+    --primary-500: #0238ad;
+    --primary-600: #02329b;
+    --primary-700: #022c88;
+    --primary-800: #012676;
+    --primary-900: #011e55;
+
+    --primary-color: #0238ad;
+    --primary-color-text: #ffffff;
+}
+.primary-valco {
+    background-color: #0238ad !important;
+    border-color: #0238ad !important;
+    color: #ffffff !important;
+}
+
+.primary-valco:hover {
+    background-color: #022c88 !important;
+    border-color: #022c88 !important;
+}
+
+.primary-valco:active {
+    background-color: #011e55 !important;
+    border-color: #011e55 !important;
+}
